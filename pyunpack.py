@@ -45,7 +45,7 @@ if __name__ == '__main__':
             logger.info("Selected pyinstaller")
             engine = pyinstaller
 
-        elif py2exe.check_magic():
+        elif py2exe.is_magic_recognised():
             # Made by py2exe
             logger.info("Selected py2exe")
             engine = py2exe

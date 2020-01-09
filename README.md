@@ -1,5 +1,5 @@
 **This repository is forked from [python-exe-unpacker](https://github.com/countercept/python-exe-unpacker).
-Most of the source code are based on python-exe-unpacker code but some changes have been made to the original code.**
+Most of the source code are based on python-exe-unpacker but some changes have been made to the original code.**
 
 Author: In Ming Loh (inming.loh@countercept.com - @tantaryu) <br />
 Company: Countercept (@countercept) <br />
@@ -13,11 +13,11 @@ A script that helps researcher to unpack and decompile executable written in pyt
 This script glues together several tools available to the community. Hopefully, this can help people in their daily job. Several YARA rules are available to determine if the executable is written in python (This script also confirms if the executable is created with either py2exe or pyinstaller).
 
 ## Requirements
-- Python 3.6 or later.
+- Python 2.x or 3.x
 - Install all the dependency needed:<br/>
-    `pip3 install --user -r requirements.txt`<br/>
+    `pip install --user -r requirements.txt`<br/>
         or if you fancy to have your dependency installed with root permission<br/>
-    `sudo pip3 install -r requirements.txt`
+    `sudo pip install -r requirements.txt`
 
 ## How to decompyle
 Unpack the binary

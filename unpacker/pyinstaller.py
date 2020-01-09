@@ -36,7 +36,7 @@ class PyInstaller(PythonExectable):
     '''
 
     def __init__(self, path, output_dir=None):
-        super().__init__(path, output_dir)
+        super(PyInstaller, self).__init__(path, output_dir)
         self.py_inst_archive = pyinstxtractor.PyInstArchive(self.file_path)
         
         # A hack to check the existence of the file

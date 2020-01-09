@@ -1,6 +1,7 @@
 import logging
 import os
 import pefile
+import struct
 from unpy2exe import unpy2exe
 from unpacker.pyexecutable import PythonExectable
 
